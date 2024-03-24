@@ -12,7 +12,7 @@ const orderData = {
 
 // Your code goes here
 class Order {
-    construct(restaurant, total, customer) {
+    constructor(restaurant, total, customer) {
         this.restaurant = restaurant;
         this.total = total;
         this.customer = customer;
